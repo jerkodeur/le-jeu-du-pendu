@@ -1,0 +1,64 @@
+{
+  "expressions": [
+    {
+      "id": 0,
+      "name": "donner sa langue au chat",
+      "description:": "Autrefois, on disait « jeter sa langue au chien ». Cette expression avait un sens dévalorisant car à l’époque, on ne « jetait » aux chiens que les restes de nourriture. « Jeter sa langue aux chiens » signifiait alors ne plus avoir envie de chercher la réponse à une question. Petit à petit, l’expression s’est transformée pour devenir « donner sa langue au chat », au XIXe siècle. En effet, à cette époque, le chat était considéré comme un gardien de secrets. Sa parole serait donc de valeur considérable, et il pourrait s’agir en « donnant sa langue au chat », de lui prêter la parole pour qu’il nous donne la réponse à une devinette.",
+      "image": "https://lewebpedagogique.com/culturefrancaisepourtous/files/2012/12/1_donnersalangueauchat.jpg"
+    },
+    {
+      "id": 1,
+      "name": "broyer du noir",
+      "description": "Les origines de cette expression restent obscures. Toutefois elle semble dater du XVIIIe siècle. Le noir a toujours été un symbole de tristesse et de mélancolie. Quant à l’emploi du verbe « broyer », il pourrait provenir du langage de la peinture où les artistes devaient « broyer », c’est-à-dire « écraser » leur peinture.",
+      "image": "https://lewebpedagogique.com/culturefrancaisepourtous/files/2012/12/3_file_broyerdunoir.jpg"
+    },
+    {
+      "id": 2,
+      "name": "monter sur ses grands chavaux",
+      "description": "Autrefois, quand les chevaux étaient encore utilisés pour faire la guerre, on utilisait les « chevaux de bataille », autrement appelés « destriers » (car les chevaliers les conduisaient de la main droite). Ces chevaux étaient très hauts et forts, si bien que l’on dominait mieux son adversaire. L’image du courageux chevalier partant défendre ses intérêts ou ceux de son pays « sur son fidèle destrier » est restée, et c’est depuis le XVIe siècle que l’on dit d’une personne qu’elle « monte sur ses grands chevaux » lorsqu’elle s’emporte et devient parfois agressive lorsqu’elle tente de défendre son point de vue.",
+      "image": "https://lewebpedagogique.com/culturefrancaisepourtous/files/2012/12/2_file_montersursesgrandschevaux.jpg"
+    },
+    {
+      "id": 3,
+      "name": "fumer comme un pompier",
+      "description": "Cette expression remonte à l’époque où les pompiers n’avaient pas encore de vêtements ignifugés, ils portaient des tenus qu’ils arrosaient avant de rentrer dans les flammes. À forte température, cette eau se transformait en vapeur, de la fumée semblait s’échapper d’eux.",
+      "image": "https://lewebpedagogique.com/culturefrancaisepourtous/files/2012/12/4_file_fumercommeunpompier.jpg"
+    },
+    {
+      "id": 4,
+      "name": "decrocher la lune",
+      "description": "La lune, astre lumineux et mystérieux, paraît souvent très proche de la Terre, et donc, facile à attraper. Les apparences sont bien évidemment trompeuses puisque le premier pas de l’homme sur la Lune dû attendre 1969. Toujours est-il qu’elle fascine depuis toujours. Au XVIe siècle, l’expression était « prendre la lune avec ses dents », puis s’est transformée en « décrocher la lune », pour figurer que l’on a obtenu quelque chose que l’on pensait impossible.",
+      "image": "https://lewebpedagogique.com/culturefrancaisepourtous/files/2012/12/5_file_decrocherLune.jpg"
+    },
+    {
+      "id": 5,
+      "name": "avoir le coeur sur la main",
+      "description": "L’expression date du XVIIIe siècle et fait référence au cœur en tant que siège des émotions. Elle figure qu’une personne a le cœur, donc les émotions et les sentiments, sur la main, autrement dit qu’elle est prête à offrir. On imagine également une main tendue, symbole encore plus puissant de solidarité et de générosité.",
+      "image": "https://lewebpedagogique.com/culturefrancaisepourtous/files/2012/12/6_file_lecoeursurlamain.jpg"
+    },
+    {
+      "id": 6,
+      "name": "en faire tout un fromage",
+      "description": "Cette expression remonte au XXème siècle. Partir du lait, (c’est-à-dire un élément simple) et en faire du fromage (aliment très travaillé) signifie que l’on peut transformer quelque chose qui était simple en une chose complexe.",
+      "image": "https://lewebpedagogique.com/culturefrancaisepourtous/files/2012/12/1_file_enfaireunfromage.jpg"
+    },
+    {
+      "id": 7,
+      "name": "raconter des salades",
+      "description": "Cette expression date du XIXe siècle. Il s’agit d’une métaphore. On compare une salade, soit un assortiment d’ingrédients se mariant bien entre eux, à un ensemble de ragots qui, accompagnés d’un peu d’humour et de fausses excuses, peuvent passer pour vrais.",
+      "image": "https://lewebpedagogique.com/culturefrancaisepourtous/files/2012/12/2_file_raconterdessalades.jpg"
+    },
+    {
+      "id": 8,
+      "name": "avoir la frite",
+      "description": "C’est à cause de sa forme plutôt ronde qu’en argot du début du XXe siècle, la pomme de terre, donc la patate, a été assimilée à la tête (comme la poire auparavant). Sans que ce soit certain, c’est probablement parce que celui qui est en bonne forme a une bonne ‘patate’ que, en passant par une forme comme « il a une sacrée patate » on est arrivé à il a la patate.Quant à la ‘frite’, elle en découle assez logiquement, mais plus tard, dans les années 70. C’est en effet à partir de 1950 que la ‘frite’, comme la ‘patate’, désigne la tête, par une simple plaisanterie puisque, aux dernières nouvelles (et les Belges ne démentiront pas) c’est bien avec des patates qu’on fait les frites. Ensuite, l’influence d’avoir la patate a fait le reste.L’expression semble provenir du milieu des comédiens ; son origine est obscure. Elle appartient au registre très familier et s’est répandue après 1965.",
+      "image": "https://lewebpedagogique.com/culturefrancaisepourtous/files/2012/12/3_file_avoirlafrite.jpg"
+    },
+    {
+      "id": 9,
+      "name": "se faire rouler dans la farine",
+      "description": "Au début du XIXe siècle, le verbe « rouler » signifiait « duper, tromper ». La « farine » quant à elle symbolisait des arguments factices, de « belles paroles ». « Se faire rouler dans la farine » signifie que l’on a été dupé par des arguments trompeurs.",
+      "image": "https://lewebpedagogique.com/culturefrancaisepourtous/files/2012/12/4_file_roulerdanslafarine.jpg"
+    }
+  ]
+}
