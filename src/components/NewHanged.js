@@ -27,7 +27,6 @@ const NewHanged = () => {
         <h2>{expression}</h2>
       </div>
       <div>
-        Letter to Find: {lettersToFind}
         <Letter expression={expression} />
       </div>
     </div>
