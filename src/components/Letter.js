@@ -5,15 +5,13 @@ import './Letter.css'
 const Letter = (props) => {
 
   const [expression, setExpression] = useState(props.expression)
-  const [lettersToFind, setLettersToFind] = useState(new Set(props.expression))
-
-  const handleClick = (e) => alert(`Vous avez cliquez sur la lettre ${e.target.id}`)
+  let [lettersToFind, setLettersToFind] = useState(new Set(props.expression))
 
   return (
     <div>
       <div>{expression}</div>
       <ul>
-        {[...lettersToFind].map(letter => <li id={letter} onClick={handleClick}>{letter}</li>)}
+        {[...lettersToFind].map(letter => <li id={letter} onClick={props.handleClick}>{letter}</li>)}
       </ul>
     </div>
   )

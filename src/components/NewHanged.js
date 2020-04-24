@@ -13,10 +13,14 @@ const NewHanged = () => {
   const [attempts, setAttempts] = useState(0)
   const [useLetters, setUseLetters] = useState([])
   const [remainingLetters, setRemainingLetters] = useState(alphabet)
-  const [expression, setExpression] = useState(name)
-  const [lettersToFind, setLettersToFind] = useState([new Set(name)])
+  const [expression, setExpression] = useState(name.toUpperCase())
+  const [lettersToFind, setLettersToFind] = useState([new Set(name.toUpperCase())])
 
-  const handleClick = () => { }
+  const handleClick = (e) => {
+    alert(`Vous avez cliquez sur la lettre ${e.target.id}`)
+    // const newLetterToFind = lettersToFind.delete(e.target.id)
+    // setLettersToFind(newLetterToFind)
+  }
 
   const checkMatching = () => { }
 
@@ -27,7 +31,8 @@ const NewHanged = () => {
         <h2>{expression}</h2>
       </div>
       <div>
-        <Letter expression={expression} />
+        <Letter expression={expression} handleClick={handleClick} />
+        <h5>{lettersToFind}</h5>
       </div>
     </div>
   )
