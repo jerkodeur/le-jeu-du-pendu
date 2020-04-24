@@ -1,39 +1,37 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+
+import Letter from './Letter'
 
 import './NewHanged.css'
 import data from './expressions.json'
 
 const { id, name, description } = data.expressions[0]
+const alphabet = new Set(["ABCDEFGHIJKLMNOPQRSTUVWXYZ"])
 
-class NewHanged extends React.Component {
+const NewHanged = () => {
 
-  constructor(props) {
-    super(props)
-    this.state = {
-      attempts: 0,
-      useLetters: [],
-      remainingLetters: "ABCDEFGHIJKLMNOPKRSTUVWXYZ",
-      expression: name,
-      lettersToFind: ""
-    }
-    this.handleClick = this.handleClick.bind(this)
-    this.checkMatching = this.checkMatching.bind(this)
-  }
+  const [attempts, setAttempts] = useState(0)
+  const [useLetters, setUseLetters] = useState([])
+  const [remainingLetters, setRemainingLetters] = useState(alphabet)
+  const [expression, setExpression] = useState(name)
+  const [lettersToFind, setLettersToFind] = useState([new Set(name)])
 
-  componentDidMount() {
-    this.setState({ expression: name })
-  }
+  const handleClick = () => { }
 
-  handleClick() { }
+  const checkMatching = () => { }
 
-  checkMatching() { }
-
-  render() {
-    //   console.log(name, this.state.expression)
-    return (
-      <div>test</div>
-    )
-  }
+  //   console.log(name, this.state.expression)
+  return (
+    <div>
+      <div>
+        <h2>{expression}</h2>
+      </div>
+      <div>
+        Letter to Find: {lettersToFind}
+        <Letter expression={expression} />
+      </div>
+    </div>
+  )
 }
 
 export default NewHanged
