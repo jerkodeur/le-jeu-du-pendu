@@ -2,17 +2,18 @@
   color: red
 }
 
-.alphabetLetters button {
+.firstPartAlphabet button, .lastPartAlphabet button {
   background-color: rgb(63, 58, 58);
-  border-radius: 5em;
-  padding: 1em;
-  margin: .2em;
+  border: 1px solid rgb(218, 219, 201);
+  border-radius: .5em;
+  padding: .1em;
   border-style: ridge;
   font-weight: bold;
-  color: #FFF;
+  color: rgb(236, 222, 18);
+  margin: auto;
 }
 
-.alphabetLetters button:hover {
+.firstPartAlphabet button:hover, .lastPartAlphabet button:hover {
   background-color: #000;
 }
 

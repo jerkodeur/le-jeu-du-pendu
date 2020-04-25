@@ -1,0 +1,17 @@
+.expression {
+  color: purple;
+  margin-bottom: 1em;
+}
+
+.expressionLetters {
+  font-size: 2em;
+  padding: 0.1em;
+}
+
+.space {
+  margin-right: 1em;
+}
+
+li {
+  display: inline-block;
+}
