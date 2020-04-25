@@ -1,0 +1,21 @@
+.expression {
+  color: red
+}
+
+.alphabetLetters button {
+  background-color: rgb(63, 58, 58);
+  border-radius: 5em;
+  padding: 1em;
+  margin: .2em;
+  border-style: ridge;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.alphabetLetters button:hover {
+  background-color: #000;
+}
+
+.knownLetters {
+  opacity: 50%;
+}

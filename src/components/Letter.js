@@ -2,19 +2,22 @@ import React, { useState, useEffect } from 'react'
 
 import './Letter.css'
 
+const alphabet = [...new Set("ABCDEFGHIJKLMNOPQRSTUVWXYZ")]
+
 const Letter = (props) => {
 
-  const [expression, setExpression] = useState(props.expression)
-  let [lettersToFind, setLettersToFind] = useState(new Set(props.expression))
-
+  const { lettersToFind, remainingLetters, handleClick } = props
+  console.log(remainingLetters)
   return (
-    <div>
-      <div>{expression}</div>
-      <ul>
-        {[...lettersToFind].map(letter => <li id={letter} onClick={props.handleClick}>{letter}</li>)}
-      </ul>
+    <div className="alphabetLetters">
+      {alphabet.map(letter =>
+        <button id={letter} onClick={handleClick}
+          className={[...remainingLetters].includes(letter) ? "remainingLetters" : "knownLetters"}
+        >{letter}</button>
+      )}
     </div>
   )
 }
+
 
 export default Letter
