@@ -46,16 +46,20 @@ const NewHanged = () => {
   return (
     <>
       <div>
+        {!result &&
+          <div>
+            <Expression expression={expression} useLetters={useLetters} />
+            <Letter expression={expression} lettersToFind={lettersToFind} remainingLetters={remainingLetters} handleClick={handleClick} />
+            <p>Lettres restantes: {[...lettersToFind].length}</p>
+            <h5>Nombre de tentatives: <b>{attempts}</b></h5>
+          </div>
+        }
+      </div>
+      {result &&
         <div>
-          <Expression expression={expression} useLetters={useLetters} />
-          <Letter expression={expression} lettersToFind={lettersToFind} remainingLetters={remainingLetters} handleClick={handleClick} />
-          <h5>Nombre de tentatives: <b>{attempts}</b></h5>
+          {result && `Bravo !!! vous avez gagné en ${attempts} coups !!! `}
         </div>
-      </div>
-      <div>
-        Lettres restantes: {[...lettersToFind].length}
-        {result && `Bravo !!! vous avez gagné en ${attempts} coups !!! `}
-      </div>
+      }
     </>
   )
 }
