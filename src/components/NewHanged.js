@@ -7,11 +7,11 @@ import './NewHanged.css'
 import data from './expressions.json'
 
 const randomNumber = (max) => Math.floor(Math.random() * Math.floor(max))
-const { id, name, description } = data.expressions[randomNumber(data.expressions.length)]
+const { name, description } = data.expressions[randomNumber(data.expressions.length)]
 const alphabet = new Set("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 
 const NewHanged = () => {
-
+  // Define the states 
   const [attempts, setAttempts] = useState(0)
   const [useLetters, setUseLetters] = useState([])
   const [remainingLetters, setRemainingLetters] = useState(alphabet)
@@ -19,30 +19,23 @@ const NewHanged = () => {
   const [lettersToFind, setLettersToFind] = useState(new Set(name.toUpperCase()))
   const [result, SetResult] = useState(false)
 
-
-  //  {
-
-  //   setLettersToFind(lettersToFind)
-  //   console.log(lettersToFind)
-  // }
+  // When the user click on a letter
   const handleClick = (e) => {
-    setAttempts(attempts + 1)
+    setAttempts(attempts + 1) // Add one attempt
+    // Set the new lettersToFind if necessarry
     lettersToFind.delete(e.target.id)
-    remainingLetters.delete(e.target.id)
-    // console.log(lettersToFind)
     setLettersToFind(new Set([...lettersToFind]))
+    // Set the remainingLetters if necessary
+    remainingLetters.delete(e.target.id)
     setRemainingLetters(new Set([...remainingLetters]))
+    // Add the new use letter if not yet used
     useLetters.push(e.target.id)
     setUseLetters(useLetters)
+    // If all letters found, the game is over
     if ([...lettersToFind].length === 1) SetResult(true)
 
   }
-  // useEffect(() => {
-  //   setLettersToFind(lettersToFind)
-  // }, [lettersToFind])
 
-  // console.log(lettersToFind, "toFind")
-  // console.log(remainingLetters, "alphabet")
   return (
     <>
       <div>
