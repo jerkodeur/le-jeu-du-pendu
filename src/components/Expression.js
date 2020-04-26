@@ -4,6 +4,7 @@ import './Expression.css'
 
 const Expression = (props) => {
 
+  console.log(props.useLetters, "test")
   return (
     <ul className="expression">
       {props.expression.split('').map((letter, id) =>

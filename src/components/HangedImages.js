@@ -18,7 +18,7 @@ const HangedImages = (props) => {
 
   let image = ''
 
-  switch (props.attempts) {
+  switch (props.errors) {
     case (0):
       image = pendu_0;
       break;

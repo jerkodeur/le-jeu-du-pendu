@@ -7,18 +7,30 @@ import HangedImages from './HangedImages'
 import './NewHanged.css'
 import data from './expressions.json'
 
-const randomNumber = (max) => Math.floor(Math.random() * Math.floor(max))
-const { name, description } = data.expressions[randomNumber(data.expressions.length)]
-const alphabet = new Set("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+
+// const { name, description } = data.expressions[randomNumber(data.expressions.length)]
+
 
 const NewHanged = () => {
+
+  const alphabet = new Set("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+  const defineExpression = (reload = "none") => {
+    const randomNumber = (max) => Math.floor(Math.random() * Math.floor(max))
+    let newExpression = { ...data.expressions[randomNumber(data.expressions.length)] }
+    if (reload === "none") {
+      return newExpression
+    } else { reloadGame(newExpression) }
+  }
+
+  const defineLetterToFind = (expression) => new Set(expression)
+
   // Define the states
   const [attempts, setAttempts] = useState(0)
   const [errors, setErrors] = useState(0)
   const [useLetters, setUseLetters] = useState([])
   const [remainingLetters, setRemainingLetters] = useState(alphabet)
-  const [expression, setExpression] = useState(name.toUpperCase())
-  const [lettersToFind, setLettersToFind] = useState(new Set(name.toUpperCase()))
+  const [expression, setExpression] = useState(defineExpression().name.toUpperCase())
+  const [lettersToFind, setLettersToFind] = useState(defineLetterToFind(expression))
   const [result, SetResult] = useState(false)
 
   // When the user click on a letter
@@ -34,14 +46,27 @@ const NewHanged = () => {
     useLetters.push(e.target.id)
     setUseLetters(useLetters)
     // If all letters found, the game is over
-    if ([...lettersToFind].length === 1) SetResult(true)
-
+    if ([...lettersToFind].length === 0 || ([...lettersToFind].length === 1 && [...lettersToFind].includes(' '))) SetResult(true)
   }
 
+  // Reinitialize when a new game sis called
+  const reloadGame = (expression) => {
+    console.log(expression.name, "reload")
+    setAttempts(0)
+    setErrors(0)
+    setUseLetters([])
+    setRemainingLetters('')
+    setRemainingLetters(alphabet)
+    SetResult(false)
+    setExpression(expression.name.toUpperCase())
+    setLettersToFind(new Set(expression.name.toUpperCase()))
+
+  }
+  console.log(remainingLetters, ("remain"))
   return (
     <>
       <div className="HangedDivImage">
-        <HangedImages attempts={errors} />
+        <HangedImages errors={errors} />
       </div>
       <div>
         {!result &&
@@ -55,7 +80,8 @@ const NewHanged = () => {
       </div>
       {result &&
         <div>
-          {result && `Bravo !!! vous avez gagné en ${attempts} coups !!! `}
+          {`Bravo !!! vous avez gagné en ${attempts} coups !!! `}
+          <input type="button" id="newGame" onClick={defineExpression} value="New game!" />
         </div>
       }
     </>
