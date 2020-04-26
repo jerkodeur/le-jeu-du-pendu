@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 import Letter from './Letter'
 import Expression from './Expression'
+import HangedImages from './HangedImages'
 
 import './NewHanged.css'
 import data from './expressions.json'
@@ -38,6 +39,9 @@ const NewHanged = () => {
 
   return (
     <>
+      <div className="HangedDivImage">
+        <HangedImages attempts={attempts} />
+      </div>
       <div>
         {!result &&
           <div>
