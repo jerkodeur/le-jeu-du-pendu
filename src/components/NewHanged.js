@@ -12,8 +12,9 @@ const { name, description } = data.expressions[randomNumber(data.expressions.len
 const alphabet = new Set("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 
 const NewHanged = () => {
-  // Define the states 
+  // Define the states
   const [attempts, setAttempts] = useState(0)
+  const [errors, setErrors] = useState(0)
   const [useLetters, setUseLetters] = useState([])
   const [remainingLetters, setRemainingLetters] = useState(alphabet)
   const [expression, setExpression] = useState(name.toUpperCase())
@@ -23,8 +24,8 @@ const NewHanged = () => {
   // When the user click on a letter
   const handleClick = (e) => {
     setAttempts(attempts + 1) // Add one attempt
-    // Set the new lettersToFind if necessarry
-    lettersToFind.delete(e.target.id)
+    // Remove the lettersToFind if necessary and add an error if not occur
+    lettersToFind.delete(e.target.id) ? lettersToFind.delete(e.target.id) : setErrors(errors + 1)
     setLettersToFind(new Set([...lettersToFind]))
     // Set the remainingLetters if necessary
     remainingLetters.delete(e.target.id)
@@ -40,7 +41,7 @@ const NewHanged = () => {
   return (
     <>
       <div className="HangedDivImage">
-        <HangedImages attempts={attempts} />
+        <HangedImages attempts={errors} />
       </div>
       <div>
         {!result &&
