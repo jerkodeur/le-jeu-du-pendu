@@ -3,7 +3,7 @@
     {
       "id": 0,
       "name": "donner sa langue au chat",
-      "description:": "Autrefois, on disait « jeter sa langue au chien ». Cette expression avait un sens dévalorisant car à l’époque, on ne « jetait » aux chiens que les restes de nourriture. « Jeter sa langue aux chiens » signifiait alors ne plus avoir envie de chercher la réponse à une question. Petit à petit, l’expression s’est transformée pour devenir « donner sa langue au chat », au XIXe siècle. En effet, à cette époque, le chat était considéré comme un gardien de secrets. Sa parole serait donc de valeur considérable, et il pourrait s’agir en « donnant sa langue au chat », de lui prêter la parole pour qu’il nous donne la réponse à une devinette.",
+      "description": "Autrefois, on disait « jeter sa langue au chien ». Cette expression avait un sens dévalorisant car à l’époque, on ne « jetait » aux chiens que les restes de nourriture. « Jeter sa langue aux chiens » signifiait alors ne plus avoir envie de chercher la réponse à une question. Petit à petit, l’expression s’est transformée pour devenir « donner sa langue au chat », au XIXe siècle. En effet, à cette époque, le chat était considéré comme un gardien de secrets. Sa parole serait donc de valeur considérable, et il pourrait s’agir en « donnant sa langue au chat », de lui prêter la parole pour qu’il nous donne la réponse à une devinette.",
       "image": "https://lewebpedagogique.com/culturefrancaisepourtous/files/2012/12/1_donnersalangueauchat.jpg"
     },
     {
@@ -14,7 +14,7 @@
     },
     {
       "id": 2,
-      "name": "monter sur ses grands chavaux",
+      "name": "monter sur ses grands chevaux",
       "description": "Autrefois, quand les chevaux étaient encore utilisés pour faire la guerre, on utilisait les « chevaux de bataille », autrement appelés « destriers » (car les chevaliers les conduisaient de la main droite). Ces chevaux étaient très hauts et forts, si bien que l’on dominait mieux son adversaire. L’image du courageux chevalier partant défendre ses intérêts ou ceux de son pays « sur son fidèle destrier » est restée, et c’est depuis le XVIe siècle que l’on dit d’une personne qu’elle « monte sur ses grands chevaux » lorsqu’elle s’emporte et devient parfois agressive lorsqu’elle tente de défendre son point de vue.",
       "image": "https://lewebpedagogique.com/culturefrancaisepourtous/files/2012/12/2_file_montersursesgrandschevaux.jpg"
     },
@@ -125,6 +125,66 @@
       "name": "Poser un lapin",
       "description": "« Poser un lapin » signifie de nos jours ne pas aller à un rendez-vous, sans prévenir la personne qui nous attend. Cependant, le sens était autrefois différent. En 1880 par exemple, cela voulait dire « ne pas rétribuer les faveurs d’une jeune fille ». En effet à cette époque, le « lapin » désignait un refus de paiement. Par la suite, il a également désigné un voyageur clandestin. L’expression, sous sa forme actuelle, serait apparue vers 1890 chez les étudiants, et pourrait provenir de « laisser poser », qui signifie « faire attendre quelqu’un ».",
       "image": "https://lewebpedagogique.com/culturefrancaisepourtous/files/2012/12/2572_file_poserunlapin.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Jeter l'argent par les fenetres",
+      "description": "Au XVIe siècle, on donnait aux mendiants en leur lançant l’argent par la fenêtre. De là a perduré l’expression qui signifie que l’on est très dépensier.",
+      "image": "https://lewebpedagogique.com/culturefrancaisepourtous/files/2012/12/3154_file_jeterargent.jpg"
+    },
+    {
+      "id": 22,
+      "name": "se tenir a carreau",
+      "description": "On trouve deux origines possibles à cette expression. La première proviendrait des cartes à jouer, chaque emblème représentant une arme. Le cœur serait le courage, la noblesse, donc la cavalerie. Le pique serait l’arme de l’infanterie et le trèfle le fourrage. Le carreau quant à lui représente le projectile tiré par l’arbalète. « Etre sur le carreau » serait donc « être derrière l’arme », donc stable, en position de force, mais tout de même méfiant. L’autre origine serait un dérivé de l’argot « carre » ou « carrette », venu de « carrée » qui signifie « chambre », ou dans un sens plus figuré « cachette ». « Se sentir à carreuu », se serait donc « se mettre à l’abri du danger », donc être sur ses gardes.",
+      "image": "https://lewebpedagogique.com/culturefrancaisepourtous/files/2012/12/3156_file_seteniracarreaux3.jpg"
+    },
+    {
+      "id": 23,
+      "name": "avoir le coup de foudre",
+      "description": "Au XVIIe siècle, « le coup de foudre » était un évènement inattendu et en général désagréable, qui générait beaucoup de stupéfaction. A la fin du siècle, le « coup » avait déjà le sens d’ »évènement brutal et impressionnant ». On l’associa alors au domaine sentimental et aux émotions. La « foudre », quant à elle, symbolisa la rapidité (« rapide comme l’éclair »), mais également le feu, qui au figuré prend le sens de « passion ». Mais le « coup de foudre », en tant qu’émotion soudaine et violente ressentie à l’égard d’une personne ou d’une chose, n’est réellement apparu que vers la fin du XVIIIe siècle.",
+      "image": "https://lewebpedagogique.com/culturefrancaisepourtous/files/2012/12/3159_file_coupdefoudre.jpg"
+    },
+    {
+      "id": 24,
+      "name": "avoir le moral au beau fixe",
+      "description": "« Poser un lapin » signifie de nos jours ne pas aller à un rendez-vous, sans prévenir la personne qui nous attend. Cependant, le sens était autrefois différent. En 1880 par exemple, cela voulait dire « ne pas rétribuer les faveurs d’une jeune fille ». En effet à cette époque, le « lapin » désignait un refus de paiement. Par la suite, il a également désigné un voyageur clandestin. L’expression, sous sa forme actuelle, serait apparue vers 1890 chez les étudiants, et pourrait provenir de « laisser poser », qui signifie « faire attendre quelqu’un ».",
+      "image": "https://qmulfroggies.files.wordpress.com/2017/11/musique-bonne-humeur.jpg?w=648"
+    },
+    {
+      "id": 25,
+      "name": "A tire-larigot",
+      "description": "L'expression s'utilise pour exprimer une grande quantité. Il y aurait des références argotiques derrière cette expression. 'Tirer', au XVème siècle, signifie boire, et sans doute en quantité conséquente ce qu'infère le sens d'aujourd'hui. S'agissant du 'larigot', le mot s'applique en France à une flûte, une composante d'un jeu d'orgue. C'est l'association des deux mots qui est nébuleuse : l'explication va du bruit que fait l'alcool sortant de la bouteille comparé au son d'une flûte, à la cloche 'la Rigaud' de la cathédrale de Rouen, si lourde à manier qu'elle nécessitait au manieur de boire plus qu'avec soif pour s'en remettre. On passera ici sur bien d'autres assertions avancées.",
+      "image": "https://66.media.tumblr.com/e8c44065c8fc09bcdb99f5129ce81d7f/tumblr_ms5ijmnPDG1rjns5oo1_500.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Ca ne casse pas trois pattes a un canard",
+      "description": "Cette expression récente utilise le verbe 'casser' au sens de 'avoir un effet retentissant'.Vu le nombre de canards à trois pattes qui existent dans l'univers (et au-delà), réussir à casser toutes les pattes de l'un d'entre eux relèverait de l'exploit miraculeux. Ne pas casser les trois pattes d'un canard, c'est donc être comme tout le monde ou d'une extrême banalité. ",
+      "image": "https://p7.storage.canalblog.com/78/99/209564/11894531_p.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Avoir les oreilles d'ane",
+      "description": "Les origines de cette expression se retrouvent dans la mythologie grecque. En effet, selon la légende, il fut question de Midas, le roi de Phrygie qui sortit effectuer sa promenade, à un moment il tomba sur une scène pratiquement incroyable où Apollon et Marsyas se disputaient à propos de leur culture musicale! Or Apollon était le Dieu du chant et de la musique mais il était contesté par Marsyas. Pour départager les deux candidats, deux juges furent tirés au sort à savoir Tmollos et Midas. Marsyas choisit une composition de son cru sans harmonie mais avec passion qui fut seulement appréciée par Midas. Quant à Apollon, il opta pour un morceau plus classique mais vraiment carré qui chavira le cœur des nymphes sauf celui de Midas. Tmollos choisit la technique d’Apollon et Midas choisit le satyre objectivement moins bon. Ceci sans  compter sur la susceptibilité d’Apollon qui écorcha le satyre et envoya sa carcasse aux abattoirs. Puis pour souffler dans les trompes de Midas, il lui fit pousser des oreilles d’âne. Midas se réfugia dans son palais, honteux de ses oreilles et il porta un bonnet phrygien!",
+      "image": "http://www.mere-nature.com/images/ane_g.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Ne pas quitter quelqu'un d'une semelle",
+      "description": "Cette expression date de la fin du XIXe siècle. Lorsque l'on suit quelqu'un de près, on peut voir le dessous de ses chaussures. On comprend donc que si on ne le lâche pas d'une semelle, c'est que l'on reste derrière lui pour le surveiller.",
+      "image": "http://www.slate.fr/sites/default/files/styles/1060x523/public/chaussures-appartement.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Payer en monnaie de singe",
+      "description": "Il faut remonter à une expression française qui évoquait à l'origine une sorte de paiement en nature. Aujourd'hui, elle signifie utiliser une monnaie d'échange non convertible en argent et, plus encore, ne pas payer ses dettes par tel ou tel artifice. Selon le Livre des Métiers du XIIIème siècle, Saint Louis aurait accordé aux montreurs de singes le droit de payer en grimaces ou en tours de passe-passe le péage du Petit-Pont qui relie l'ïle Notre Dame au quartier Saint-Jacques. Le péagier pouvait aussi accorder la gratuité à un ménestrel en échange d'une chanson ou d'une fable.",
+      "image": "https://lewebpedagogique.com/culturefrancaisepourtous/files/2012/12/2572_file_poserunlapin.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Etre a la fois au four et au moulin",
+      "description": " Cette expression est attestée dès le XVIIe siècle. Elle provient du droit féodal (), lorsque les paysans ou vassaux étaient, pour moudre leur grain et cuire leur pain, tenus d'utiliser le moulin et le four communs fournis par le suzerain, moyennant redevance (tout comme ils devaient utiliser son pressoir pour obtenir leur vin). Les deux tâches étant obligatoirement exécutées l'une après l'autre, il n'était pas possible d'être à la fois au moulin et au four ('Au moulin et au four, chacun va son tour'). Il est intéressant de noter que, comme la machine à café aujourd'hui, ou le lavoir, autrefois, ces deux endroits servaient à l'époque de lieux de rencontre et de discussions ('Au four et au moulin, on sait toutes les nouvelles')",
+      "image": "http://inesdu8389.i.n.pic.centerblog.net/3ba277eb.jpg"
     }
   ]
 }

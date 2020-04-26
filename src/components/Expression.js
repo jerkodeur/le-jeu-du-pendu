@@ -9,7 +9,7 @@ const Expression = (props) => {
     <ul className="expression">
       {props.expression.split('').map((letter, id) =>
         <li className={letter !== " " ? "expressionLetters" : "space"}>
-          {props.useLetters.includes(letter) ? letter : letter === ' ' ? "  " : "_"}
+          {props.useLetters.includes(letter) ? letter : letter === ' ' ? "  " : letter === "-" || letter === "'" ? letter : "_"}
         </li>
       )}
     </ul>

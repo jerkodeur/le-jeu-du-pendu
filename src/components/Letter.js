@@ -9,7 +9,6 @@ const lastPartAlphabet = alphabet.filter((_, id) => id >= 13)
 const Letter = (props) => {
 
   const { remainingLetters, handleClick } = props
-  console.log(firstPartAlphabet, lastPartAlphabet, "alphabet")
   console.log(props.remainingLetters, "exp")
   return (
     < div className="alphabetLetters" >
